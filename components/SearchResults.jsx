@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PaginationButtons from "./PaginationButtons";
 
 export default function SearchResults({ results }) {
   return (
@@ -11,22 +12,21 @@ export default function SearchResults({ results }) {
       {results.items?.map((result) => (
         <div key={result.link} className="max-w-xl mb-8">
           <div className="group">
-            <div>
-              <Link href={result.link}>
-                <a className="text-sm">{result.formattedUrl}</a>
-              </Link>
-            </div>
-            <div>
-              <Link href={result.link}>
-                <a className="truncate text-xl text-blue-800 font-medium group-hover:underline">
-                  {result.title}
-                </a>
-              </Link>
-            </div>
+            <Link href={result.link}>
+              <a className="text-sm truncate">{result.formattedUrl}</a>
+            </Link>
+            <br />
+            <Link href={result.link}>
+              <a className="truncate text-xl text-blue-800 font-medium group-hover:underline">
+                {result.title}
+              </a>
+            </Link>
           </div>
           <p className="line-clamp-2">{result.snippet}</p>
         </div>
       ))}
+
+      <PaginationButtons />
     </div>
   );
 }
