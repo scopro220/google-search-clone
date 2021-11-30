@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { SearchIcon, XIcon } from "@heroicons/react/outline";
 import { MicrophoneIcon } from "@heroicons/react/solid";
 import Avatar from "./Avatar";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   const router = useRouter();
@@ -47,6 +48,8 @@ export default function SearchHeader() {
         </form>
         <Avatar url="https://i.imgur.com/bXQ0yOj.jpg" className="ml-auto" />
       </div>
+
+      <SearchHeaderOptions />
     </header>
   );
 }
