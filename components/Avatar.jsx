@@ -4,7 +4,7 @@ export default function Avatar({ url }) {
       loading="lazy"
       src={url}
       alt="profile"
-      className="h-10 w-10 rounded-full transition duration-150 transform hover:scale-125"
+      className="h-10 w-10 rounded-full transition duration-150 transform hover:scale-110 cursor-pointer"
     />
   );
 }
