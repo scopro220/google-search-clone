@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Body() {
   return (
-    <form className="flex flex-col items-center mt-44 flex-grow">
+    <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
       <Image
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
         height={100}
