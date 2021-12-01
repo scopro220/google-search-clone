@@ -19,7 +19,7 @@ Hosted on [Vercel](https://vercel.com)
 
 To run this project, you will need to add the following environment variables to your .env.local file
 
-`NEXT_PUBLIC_API_KEY` -> [Google API KEY](https://developers.google.com/custom-search/v1/overview)
+`NEXT_PUBLIC_API_KEY` [Google API KEY](https://developers.google.com/custom-search/v1/overview)
 
 `NEXT_PUBLIC_CONTEXT_KEY` [Google CONTEXT KEY](https://cse.google.com/cse/all)
 
