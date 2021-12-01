@@ -37,7 +37,7 @@ Landing Page
 
 ![Imgur](https://i.imgur.com/KM7G08z.png)
 
-Search Results Page Page
+Search Results Page
 
 ![Imgur](https://i.imgur.com/mMLfqpd.png)
 
